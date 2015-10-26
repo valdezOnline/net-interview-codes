@@ -1,0 +1,46 @@
+----------------------------------------- BEGIN QUIZ ------------------------------------------------
+ Time
+-------
+Time allotted: 75 minutes total.
+ 
+ Assignment:
+---------------
+ Need a C# program which will do sorting of two sets of 5 inputs and produce a single output of 10 values in ascending order.
+ The first set of input will be numbers only (including negative numbers and decimals).
+The second set will be characters A-J only (case insensitive). Each of the characters is assigned progressive values based on Fibonacci numbers. So here, A = 0; B = 1; C = 1; D = 2; E = 3; F = 5; G =8; H = 13; I = 21 and J = 34. No other characters are permitted.
+ 
+ Rules:
+--------
+ No hard coding of values for C-J allowed. The values for each of these characters need to be derived using the relation: C = B+A; D = C+B … etc. Please note the values for A = 0 and B = 1 can be hardcoded.
+ Need clean exception handling so any bad input is rejected correctly.
+ Any kind of input entry format, as it works to your convenience, is allowed. It can be a single string with comma separated values or can be entry of one value at a time, etc.
+ Use of in-built function(s) for sorting is acceptable.
+ You are welcome to refer to internet or books and this is not viewed negatively. However, please give appropriate credits, if any such material was consulted.
+ 
+ Sample Test:
+----------------
+ First Set:
+ 1
+2
+-1
+0.5
+5
+ Second Set:
+ A
+D
+E
+H
+b
+ Output:
+ -1
+A
+0.5
+1
+b
+2
+D
+E
+5
+H
+ Note: when the value equivalents are the same, the numerical value precedes the character; here 1 precedes b and 2 precedes D.
+ ------------------------------------ END QUIZ -------------------------------------------
